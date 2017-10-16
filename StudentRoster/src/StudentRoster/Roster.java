@@ -18,20 +18,6 @@ public class Roster {
 		// array of strings (students) into an array of Student objects (myRoster)
 		convert(students);
 		
-		/*for (String s : students) {
-			ArrayList<String> tempArray = new ArrayList<String>();
-			int lastdelim = 0;
-			for (int i = 0; i < s.length(); i++) {
-				if (s.charAt(i) == ',') {
-					tempArray.add(s.substring(lastdelim, i));
-					lastdelim = i+1;
-				} //end if
-			} // end for
-			tempArray.add(s.substring(lastdelim)); //add last item to array
-			
-			Roster.add(tempArray.get(0), tempArray.get(1), tempArray.get(2), tempArray.get(3), Integer.parseInt(tempArray.get(4)), Integer.parseInt(tempArray.get(5)), Integer.parseInt(tempArray.get(6)), Integer.parseInt(tempArray.get(7)));	
-		}
-		*/
 		// method calls
 		print_all();
 		print_invalid_emails();
